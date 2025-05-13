@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and outputs
+*.log
+*.out
+*.err
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache/
+nosetests.xml
+pytest_cache/
+test-results/
+
+# MyPy / Pyright / Pylint
+.mypy_cache/
+.pyright/
+.pylint.d/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# CMake / build systems
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS Code
+.vscode/
+
+# Mac/Linux/Windows OS files
+.DS_Store
+Thumbs.db
+
+# dotenv and secret files
+.env
+.env.*
+secrets.*
+apikeys.json
+config.yaml  # If it contains sensitive info, otherwise remove
+
+# Models and embeddings (if storing locally)
+*.bin
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Vector store files (e.g., FAISS, Chroma)
+index.faiss
+*.sqlite
+*.db
+
+# Local document cache or uploads
+data/
+uploads/
+downloads/
+
+# Output directories
+outputs/
+results/
+tmp/
+temp/
